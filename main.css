@@ -1,0 +1,54 @@
+:root {
+    --mainWhite: #f5f5f5;
+    --mainGreen: #7fb800;
+    --mainBlue: #0d2c54;
+    --lightRed: #f1604d;
+    --lightGreen: #79d43b;
+    --mainBlack: #333333;
+    --mainRed: #f53f3f;
+  }
+
+.max-height{
+    min-height: 100vh;
+}
+
+body{
+    background: url("https://source.unsplash.com/random") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+    
+    
+}
+
+.main-container{
+
+    border: .1rem solid var(--mainWhite);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+    border-radius: 0.2rem;
+}
+
+#counter{
+   
+        color: var(--mainBlack);
+        font-size: 10rem;
+      
+}
+
+.nextBtn {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+  cursor: pointer;
+}
+.prevBtn {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  background: var(--mainRed);
+  color: var(--mainWhite);
+  cursor: pointer;
+}
+
+.prevBtn:hover {
+    background: var(--lightRed);
+  }
+  .nextBtn:hover {
+    background: var(--lightGreen);
+  }
